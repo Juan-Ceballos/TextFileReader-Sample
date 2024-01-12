@@ -16,12 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-gt-pQG">
-                                <rect key="frame" x="176" y="416" width="41.333333333333343" height="20.333333333333314"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20.329999999999998" id="Lwp-bG-KGp"/>
-                                    <constraint firstAttribute="width" constant="41.329999999999998" id="js0-38-R95"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-gt-pQG">
+                                <rect key="frame" x="16" y="75" width="314.33333333333331" height="426"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,8 +26,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CAe-gt-pQG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="amD-ew-aYK"/>
-                            <constraint firstItem="CAe-gt-pQG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yS7-T4-iHZ"/>
+                            <constraint firstItem="CAe-gt-pQG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="FSX-vK-e2j"/>
+                            <constraint firstItem="CAe-gt-pQG" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="I6K-1t-aRL"/>
+                            <constraint firstItem="CAe-gt-pQG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="LuU-kf-Fac"/>
+                            <constraint firstItem="CAe-gt-pQG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kfj-pk-6EQ"/>
                         </constraints>
                     </view>
                     <connections>
