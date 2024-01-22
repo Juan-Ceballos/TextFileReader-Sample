@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     func readStrResource() -> String? {
         do {
-            if let bundlePath = Bundle.main.path(forResource: "SampleText.txt", ofType: nil) {
+            if let bundlePath = Bundle.main.path(forResource: "DecodeSample.txt", ofType: nil) {
                 let stringContent = try String(contentsOfFile: bundlePath)
                 return stringContent
             }
