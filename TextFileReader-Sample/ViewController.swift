@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fileTextLabel.text = readStrResource("DecodeSample.txt")
+        let decodedFile = readStrResource("DecodeSample.txt")
+        fileTextLabel.text = decodedFile
+        print(decodedFile ?? "")
     }
     
     func readStrResource(_ fileName: String) -> String? {
